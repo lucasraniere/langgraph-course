@@ -14,6 +14,7 @@ babel==2.17.0
 beautifulsoup4==4.13.3
 bleach==6.2.0
 blockbuster==1.5.24
+cachetools==5.5.2
 certifi==2025.1.31
 cffi==1.17.1
 charset-normalizer==3.4.1
@@ -29,10 +30,17 @@ distro==1.9.0
 dydantic==0.0.8
 executing==2.2.0
 fastjsonschema==2.21.1
+filetype==1.2.0
 forbiddenfruit==0.1.4
 fqdn==1.5.1
 frozenlist==1.5.0
+google-ai-generativelanguage==0.6.18
+google-api-core==2.24.2
+google-auth==2.39.0
+googleapis-common-protos==1.70.0
 greenlet==3.1.1
+grpcio==1.72.0rc1
+grpcio-status==1.72.0rc1
 h11==0.14.0
 httpcore==1.0.7
 httpx==0.28.1
@@ -62,7 +70,8 @@ jupyterlab_pygments==0.3.0
 jupyterlab_server==2.27.3
 langchain==0.3.23
 langchain-community==0.3.21
-langchain-core==0.3.51
+langchain-core==0.3.56
+langchain-google-genai==2.1.4
 langchain-openai==0.3.12
 langchain-text-splitters==0.3.8
 langgraph==0.3.25
@@ -98,9 +107,13 @@ platformdirs==4.3.7
 prometheus_client==0.21.1
 prompt_toolkit==3.0.50
 propcache==0.3.1
+proto-plus==1.26.1
+protobuf==6.30.2
 psutil==7.0.0
 ptyprocess==0.7.0
 pure_eval==0.2.3
+pyasn1==0.6.1
+pyasn1_modules==0.4.2
 pycparser==2.22
 pydantic==2.11.2
 pydantic-settings==2.8.1
@@ -119,6 +132,7 @@ requests-toolbelt==1.0.0
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rpds-py==0.24.0
+rsa==4.9.1
 Send2Trash==1.8.3
 setuptools==78.1.0
 six==1.17.0
