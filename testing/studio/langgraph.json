@@ -1,0 +1,11 @@
+{
+    "dockerfile_lines": [],
+    "graphs": {
+      "traveling_agent": "./traveling_agent.py:grafo_viagem"
+    },
+    "env": "./.env",
+    "python_version": "3.11",
+    "dependencies": [
+      "."
+    ]
+  }
