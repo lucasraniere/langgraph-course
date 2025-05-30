@@ -7,7 +7,7 @@ from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
 
 
 load_dotenv()
-GOOGLE_API_KEY = "AIzaSyBK_l4zO3nCe1qjRjW646unBtt_dYpQEVA"
+GOOGLE_API_KEY = ""
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.0)
